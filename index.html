@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChatMittar · Privacy policy</title>
+  <!-- same font & icons as the app, for a consistent look -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    :root {
+      --bg-page: #f8fafc;
+      --card-white: #ffffff;
+      --text-dark: #1e293b;
+      --text-light: #64748b;
+      --border-color: #e2e8f0;
+      --accent-yellow: #eab308;
+      --accent-red: #ff0000;
+      --shadow-soft: 0 8px 24px rgba(0, 0, 0, 0.05);
+      --radius-card: 24px;
+    }
+
+    body {
+      background-color: var(--bg-page);
+      color: var(--text-dark);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1.5rem 1rem;
+    }
+
+    .policy-container {
+      max-width: 880px;
+      width: 100%;
+      background: var(--card-white);
+      border-radius: var(--radius-card);
+      box-shadow: var(--shadow-soft);
+      padding: 2rem 2rem 2.5rem;
+      margin: 1rem 0 2rem;
+      border: 1px solid var(--border-color);
+    }
+
+    .logo-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 2rem;
+      border-bottom: 2px dashed var(--border-color);
+      padding-bottom: 1.5rem;
+    }
+
+    .logo-gradient {
+      font-size: 2.2rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-yellow), var(--accent-red));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: -0.5px;
+    }
+
+    .last-updated {
+      display: inline-block;
+      background: #eef2f6;
+      padding: 0.3rem 1rem;
+      border-radius: 40px;
+      font-size: 0.8rem;
+      color: var(--text-light);
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin: 2rem 0 0.8rem;
+      color: var(--text-dark);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    h2 i {
+      color: var(--accent-red);
+      font-size: 1.4rem;
+      width: 2rem;
+    }
+
+    h3 {
+      font-weight: 500;
+      font-size: 1.2rem;
+      margin: 1.5rem 0 0.5rem;
+      color: #0f172a;
+      border-left: 5px solid var(--accent-yellow);
+      padding-left: 1rem;
+    }
+
+    p {
+      line-height: 1.7;
+      color: var(--text-light);
+      margin-bottom: 1rem;
+      font-weight: 400;
+    }
+
+    .highlight-box {
+      background: #fef9e7;
+      border-radius: 20px;
+      padding: 1.4rem;
+      margin: 1.8rem 0;
+      border: 1px solid #fde68a;
+    }
+
+    .highlight-box p {
+      margin-bottom: 0.3rem;
+    }
+
+    ul {
+      margin: 1rem 0 1.5rem 2rem;
+      color: var(--text-light);
+    }
+
+    li {
+      margin-bottom: 0.6rem;
+      line-height: 1.6;
+    }
+
+    li strong {
+      color: var(--text-dark);
+      font-weight: 500;
+    }
+
+    .badge {
+      background: var(--accent-yellow);
+      color: #1e293b;
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 0.2rem 0.8rem;
+      border-radius: 40px;
+      display: inline-block;
+      margin-left: 0.8rem;
+      vertical-align: middle;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--border-color);
+      margin: 2rem 0;
+    }
+
+    .contact-line {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      background: #f1f5f9;
+      border-radius: 60px;
+      padding: 0.8rem 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .contact-line i {
+      font-size: 1.5rem;
+      color: var(--accent-red);
+    }
+
+    .footer-note {
+      font-size: 0.85rem;
+      text-align: center;
+      margin-top: 1.5rem;
+      color: var(--text-light);
+    }
+
+    .emoji-bullet {
+      margin-right: 8px;
+      font-size: 1.1rem;
+    }
+
+    /* little app-like watermark */
+    .watermark-small {
+      opacity: 0.4;
+      font-weight: 300;
+      font-size: 0.9rem;
+      margin-top: 1rem;
+      text-align: right;
+    }
+
+    @media (max-width: 500px) {
+      .policy-container {
+        padding: 1.5rem;
+      }
+      h2 {
+        font-size: 1.3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="policy-container">
+    <!-- header with chat mittar style -->
+    <div class="logo-header">
+      <span class="logo-gradient">☕ChatMittar</span>
+      <span class="badge">privacy</span>
+    </div>
+
+    <div class="last-updated">
+      <i class="fa-regular fa-calendar-check" style="margin-right: 5px;"></i> Last updated: 15 February 2026
+    </div>
+
+    <p style="font-size: 1.1rem; margin-bottom: 2rem;">Your privacy matters. This policy explains how <strong>ChatMittar</strong> (“we”, “our”, or “the app”) handles your information when you use our social platform. <i class="fa-regular fa-face-smile" style="color: #eab308;"></i></p>
+
+    <!-- 1. Data we collect -->
+    <h2><i class="fa-regular fa-database"></i> 1. What we collect</h2>
+    <p>When you use ChatMittar (the social app you just explored), we receive and store information you give us, as well as automatic data to make the app work.</p>
+    <ul>
+      <li><span class="emoji-bullet">📇</span> <strong>Profile information:</strong> name, username, email, profile photo – when you sign in with Google or Facebook.</li>
+      <li><span class="emoji-bullet">📷</span> <strong>Content you create:</strong> photos, videos, captions, comments, and saved posts. All media you upload stays in your posts and is visible according to your interactions.</li>
+      <li><span class="emoji-bullet">❤️</span> <strong>Social graph:</strong> likes, followers, saved posts, and who you follow. This helps build your feed.</li>
+      <li><span class="emoji-bullet">🔍</span> <strong>Usage data:</strong> views, notifications, and interactions (likes/comments).</li>
+      <li><span class="emoji-bullet">📱</span> <strong>Device & technical:</strong> browser type, app version, and theme preference (light/dark mode stored locally).</li>
+    </ul>
+
+    <div class="highlight-box">
+      <p><i class="fa-regular fa-bell" style="color: #ff0000; margin-right: 10px;"></i><strong>Heads up!</strong>  We <u>do not</u> collect your exact location, contacts, or any sensitive data like health or political views. All media is stored only as data URLs (Base64) in the Firebase Realtime Database.</p>
+    </div>
+
+    <!-- 2. How we use your info -->
+    <h2><i class="fa-regular fa-compass"></i> 2. Why we use it</h2>
+    <p>We use your data only to operate and improve ChatMittar:</p>
+    <ul>
+      <li>✅ Create your account and let you log in securely.</li>
+      <li>✅ Show your posts, profile, and content to other users (according to your follow status).</li>
+      <li>✅ Enable social features: likes, comments, follow/unfollow, saved posts.</li>
+      <li>✅ Provide you with notifications (when someone likes or follows you).</li>
+      <li>✅ Show analytics (your total views, likes, comments) – only visible to you.</li>
+      <li>✅ Personalise your theme (light/dark mode).</li>
+    </ul>
+    <p>We will never sell your personal data to anyone, and we do not run third‑party ads inside the app.</p>
+
+    <!-- 3. Firebase & third parties -->
+    <h2><i class="fa-regular fa-cloud"></i> 3. Firebase (our infrastructure)</h2>
+    <p>ChatMittar runs on <strong>Firebase</strong> (Google). By using the app, your data is handled by Firebase's secure infrastructure. Specifically:</p>
+    <ul>
+      <li>🔐 <strong>Authentication:</strong> Google and Facebook sign‑in (we only get your email, name, and profile photo if you allow it).</li>
+      <li>🗄️ <strong>Realtime Database:</strong> all posts, comments, likes, follows, saved items, and user profiles are stored there. Data is transferred encrypted (HTTPS).</li>
+      <li>📦 <strong>No external storage:</strong> Images and videos you upload are converted to data URLs (base64) and stored directly inside the database – they are <em>not</em> sent to a separate file bucket. Keep that in mind: your media lives in the database.</li>
+    </ul>
+    <p>You can read <a href="https://firebase.google.com/support/privacy" target="_blank" style="color:#eab308; text-decoration: underline;">Firebase’s privacy policy</a> to understand their commitments. ChatMittar is not responsible for any unauthorised access beyond our control, but we implement strict database security rules (only authenticated users can read/write their own data).</p>
+
+    <!-- 4. Your rights & control -->
+    <h2><i class="fa-regular fa-hand-peace"></i> 4. Your choices & rights</h2>
+    <p>You are in control. Here's how:</p>
+    <ul>
+      <li><strong>Edit profile:</strong> Change your name, username, bio, or profile picture anytime from Settings → Edit Profile.</li>
+      <li><strong>Delete posts:</strong> Any post you created can be removed (trash icon on your own posts). This also removes associated likes/comments.</li>
+      <li><strong>Unfollow / remove followers:</strong> you can unfollow anyone, and followers can be removed (indirectly by blocking – not yet implemented, but you can unfollow back).</li>
+      <li><strong>Saved posts:</strong> unsave any post.</li>
+      <li><strong>Delete account:</strong> currently you can stop using the app; if you need full deletion of your profile and all data, contact us (see §7). We will manually erase your user node and all associated posts/comments/follows.</li>
+    </ul>
+
+    <!-- 5. Data retention -->
+    <h2><i class="fa-regular fa-clock"></i> 5. How long we keep data</h2>
+    <p>We retain your information as long as your account is active. If you stop using ChatMittar, your profile and posts stay visible until you delete them. <strong>Notifications older than 24 hours are automatically cleaned up</strong> (as you might have seen in the code – we run cleanup every hour).</p>
+    <p>Backups or cached data may persist temporarily, but we don't keep anything after you request deletion.</p>
+
+    <!-- 6. Children -->
+    <h2><i class="fa-regular fa-child"></i> 6. Children's privacy</h2>
+    <p>ChatMittar is not intended for anyone under the age of 13 (or the equivalent minimum age in your country). We do not knowingly collect information from children. If we become aware that a child has provided us with personal data, we will delete it. Please contact us if you believe this has happened.</p>
+
+    <!-- 7. Contact (UPDATED WITH YOUR DETAILS) -->
+    <h2><i class="fa-regular fa-envelope"></i> 7. Contact & data requests</h2>
+    <p>If you have questions, want to access your data, or request account deletion:</p>
+    <div class="contact-line">
+      <i class="fa-regular fa-paper-plane"></i>
+      <span style="font-weight: 500;">sarvasankti0@gmail.com</span>
+      <span style="color: #94a3b8;">·</span>
+      <i class="fa-brands fa-whatsapp" style="color: #25D366;"></i>
+      <span>+91 750 1590 600</span>
+    </div>
+    <p class="text-small" style="margin-top: 0.5rem;">(these are the official contact details – we aim to respond within 2 working days)</p>
+
+    <!-- 8. Changes -->
+    <h2><i class="fa-regular fa-pen-to-square"></i> 8. Changes to this policy</h2>
+    <p>We may update this privacy notice from time to time. If we make significant changes, we will notify you via in‑app notification (or on the login screen). The “last updated” date at the top always reflects the latest version.</p>
+
+    <hr>
+
+    <!-- extra transparency about the code features -->
+    <h3><i class="fa-regular fa-code"></i> App‑specific notes <span style="font-size:0.9rem; font-weight:normal; color:var(--text-light);">(explaining how your data is used by the features)</span></h3>
+    <p><strong>🔍 Search:</strong> When you search for users, the app reads the <code>users</code> node to show matches. This is necessary to let you discover friends.</p>
+    <p><strong>📊 Analytics (your private dashboard):</strong> The app counts your total views, likes, and comments. This data is derived from posts, views, and comments collections and is only visible to you (not to other users).</p>
+    <p><strong>💾 Saved posts:</strong> The list of saved post IDs is stored under <code>saved/[uid]</code>. Only you can see your saved collection.</p>
+    <p><strong>👁️ Views tracking:</strong> Each time you view a post, a record is stored under <code>views/[postId]/[uid]</code> so we can increment the view count only once per user. This is anonymous in the sense that other users don't see who viewed.</p>
+
+    <div style="background: #f8fafc; border-radius: 20px; padding: 1.5rem; margin: 2rem 0;">
+      <p style="display: flex; gap: 12px; align-items: flex-start;">
+        <i class="fa-regular fa-circle-check" style="color: #10b981; font-size: 1.6rem;"></i>
+        <span>To summarise: <strong>ChatMittar respects your privacy</strong>. We only collect data that's essential for a social experience. No spying, no selling. You own your content.</span>
+      </p>
+    </div>
+
+    <!-- small watermark like in the app modals -->
+    <div class="watermark-small">
+      <span>☕C-H · privacy v1.0</span>
+    </div>
+  </div>
+
+  <div style="text-align: center; margin-top: 0.5rem; color: var(--text-light); font-size: 0.8rem;">
+    <i class="fa-regular fa-heart" style="color: #ff0000;"></i>  ChatMittar – built with transparency
+  </div>
+</body>
+</html>
